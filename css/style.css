@@ -1,0 +1,95 @@
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    font-family: "Proxima Nova";
+}
+
+.conteiner {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.conteiner span{
+    display: inline-flex;
+    justify-content: center;
+}
+
+h1 {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    margin: 20px auto 22px;
+}
+
+.text{
+    width: 220px;
+    height: 52px;
+    color: #9d9d9d;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.35px;
+}
+
+h1 .design {
+    width: 140px;
+    height: 10px;
+}
+  
+h1 .customize {
+    width: 118px;
+    height: 10px;
+}
+
+h1 .fast {
+    width: 134px;
+    height: 10px;
+}
+
+.cell {
+    text-align: center;
+    margin: 56px 100px 66px 100px;
+}
+
+span {
+    border-radius: 50%;
+    border: 1px solid #1275b9;
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+span:hover {
+    background-color: white;
+    border-color: #2a69a6;  
+}
+
+span:hover path{
+    fill: #2a69a6;
+}
+
+
+    
+
+  
+
